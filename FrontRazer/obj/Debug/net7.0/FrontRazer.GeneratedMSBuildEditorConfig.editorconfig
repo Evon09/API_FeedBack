@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FrontRazer
+build_property.RootNamespace = FrontRazer
+build_property.ProjectDir = D:\Jair\Documents\UTFPR\7°\TDS\FeedBack\FrontRazer\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Jair\Documents\UTFPR\7°\TDS\FeedBack\FrontRazer
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/FeedBacks/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZEJhY2tzXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/FeedBacks/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZEJhY2tzXGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/FeedBacks/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZEJhY2tzXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/FeedBacks/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZEJhY2tzXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/FeedBacks/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZEJhY2tzXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/Shared/_MainMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTWVudVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Documents/UTFPR/7°/TDS/FeedBack/FrontRazer/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
