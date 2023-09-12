@@ -1,0 +1,34 @@
+@page
+@model Aula04.RazorPages.Pages.Events.Create
+
+<h1>Criar Evento</h1>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-dange"></div>
+            <input type="hidden" asp-for="EventModel.EventID"/>
+            <div class="form-group">
+                <label asp-for="EventModel.Name"></label>
+                <input asp-for="EventModel.Name" class="form-control" />
+                <span asp-validation-for="EventModel.Name" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventModel.Description"></label>
+                <input asp-for="EventModel.Description" class="form-control"></textarea>
+                <span asp-validation-for="EventModel.Description" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventModel.Date"></label>
+                <input asp-for="EventModel.Date" type="date" class="form-control" />
+                <span asp-validation-for="EventModel.Date" class="text-dange"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Salvar"/>
+                <a asp-page="/Events/Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

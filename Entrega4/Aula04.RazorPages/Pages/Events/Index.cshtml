@@ -1,0 +1,38 @@
+@page
+@model Aula04.RazorPages.Pages.Events.Index
+
+<h1 class="display-4">Eventos registrados</h1>
+
+<hr/>
+<td><a asp-page="/Events/Create">Criar novo evento</a></td>
+<hr/>
+
+<div>
+    <table class="table table-bordered table-striped table-hover-custom">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.EventList[0].EventID)</td>
+                <td>@Html.DisplayNameFor(model => model.EventList[0].Name)</td>
+                <td>@Html.DisplayNameFor(model => model.EventList[0].Description)</td>
+                <td>@Html.DisplayNameFor(model => model.EventList[0].Date)</td>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var eventModel in Model.EventList)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => eventModel.EventID)</td>
+                        <td>@Html.DisplayFor(model => eventModel.Name)</td>
+                        <td>@Html.DisplayFor(model => eventModel.Description)</td>
+                        <td>@Html.DisplayFor(model => eventModel.Date)</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@eventModel.EventID">Alterar</a>
+                            <a asp-page="./Details" asp-route-id="@eventModel.EventID">Visualizar</a>
+                            <a asp-page="./Delete" asp-route-id="@eventModel.EventID">Remover</a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+    
+</div>

@@ -1,0 +1,24 @@
+@page "{id:int}"
+@model Aula04.RazorPages.Pages.Cursos.Alunos.Details
+
+<h1>Detalhes do Curso</h1>
+
+<div>
+    <p><strong>Nome:</strong> @Model.AlunoModel.NomeAluno</p>
+    <p><strong>Descrição:</strong> @Model.AlunoModel.Email</p>
+    <p><strong>Data de inicio:</strong> @Model.AlunoModel.DataInscricao</p>
+
+    <p>Cursos: </p>
+    @foreach (var cursoModel in Model.AlunoModel.Cursos!)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => cursoModel.IdCurso)</td>
+            <td>@Html.DisplayFor(model => cursoModel.NomeCurso)</td>
+            <td>@Html.DisplayFor(model => cursoModel.DataInicio)</td>
+            <td>@Html.DisplayFor(model => cursoModel.DataTérmino)</td>
+            <br>
+        </tr>
+    }
+</div>
+
+<a asp-page="Index">Voltar para a lista</a>

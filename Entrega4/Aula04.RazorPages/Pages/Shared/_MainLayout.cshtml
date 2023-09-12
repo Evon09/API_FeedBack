@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .table-hover-custom tbody tr:hover {
+                background-color: #ece6ff;
+            }
+
+        </style>
+        <title>UTFPR - Gerenciador de Cursos</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+        <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <partial name="./_MainMenuPartialPage.cshtml"/>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        <p><hr/></p>
+    <footer class="bg-secondary text-white py-3 text-center">Site feito Por Jair</footer>
+
+        @RenderSection("scripts", required:false)
+    </body>
+</html>

@@ -1,0 +1,22 @@
+@page "{id:int}"
+@model Aula04.RazorPages.Pages.Events.Details
+
+<h1>Detalhes do Evento</h1>
+
+<div>
+    <p><strong>Nome:</strong> @Model.EventModel.Name</p>
+    <p><strong>Descrição:</strong> @Model.EventModel.Description</p>
+    <p><strong>Data de criação:</strong> @Model.EventModel.Date</p>
+
+    @foreach (var playerModel in Model.EventModel.Players!)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => playerModel.PlayerID)</td>
+                        <td>@Html.DisplayFor(model => playerModel.Name)</td>
+                        <td>@Html.DisplayFor(model => playerModel.Age)</td>
+                        
+                    </tr>
+                }
+</div>
+
+<a asp-page="Index">Voltar para a lista</a>

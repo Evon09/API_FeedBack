@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Aula04.RazorPages
+build_property.RootNamespace = Aula04.RazorPages
+build_property.ProjectDir = D:\Jair\Desktop\atividade-tds-4-main\Aula04.RazorPages\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Jair\Desktop\atividade-tds-4-main\Aula04.RazorPages
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/AddCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xBZGRDdXJzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Alunos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEFsdW5vc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Cursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3Vyc29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Events/Players/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXFBsYXllcnNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/Shared/_MainMenuPartialPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTWVudVBhcnRpYWxQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Jair/Desktop/atividade-tds-4-main/Aula04.RazorPages/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

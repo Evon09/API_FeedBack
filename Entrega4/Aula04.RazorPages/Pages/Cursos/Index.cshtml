@@ -1,0 +1,40 @@
+@page
+@model Aula04.RazorPages.Pages.Cursos.Index
+
+<h1 class="display-4">Alunos registrados</h1>
+
+<hr/>
+<td><a asp-page="/Cursos/Create">Criar novo curso</a></td>
+<hr/>
+
+<div>
+    <table class="table table-bordered table-striped table-hover-custom">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.CursoList[0].IdCurso)</td>
+                <td>@Html.DisplayNameFor(model => model.CursoList[0].NomeCurso)</td>
+                <td>@Html.DisplayNameFor(model => model.CursoList[0].Descricao)</td>
+                <td>@Html.DisplayNameFor(model => model.CursoList[0].DataInicio)</td>
+                <td>@Html.DisplayNameFor(model => model.CursoList[0].DataTérmino)</td>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var cursoModel in Model.CursoList)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => cursoModel.IdCurso)</td>
+                        <td>@Html.DisplayFor(model => cursoModel.NomeCurso)</td>
+                        <td>@Html.DisplayFor(model => cursoModel.Descricao)</td>
+                        <td>@Html.DisplayFor(model => cursoModel.DataInicio)</td>
+                        <td>@Html.DisplayFor(model => cursoModel.DataTérmino)</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@cursoModel.IdCurso">Alterar</a>
+                            <a asp-page="./Details" asp-route-id="@cursoModel.IdCurso">Visualizar</a>
+                            <a asp-page="./Delete" asp-route-id="@cursoModel.IdCurso">Remover</a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+    
+</div>

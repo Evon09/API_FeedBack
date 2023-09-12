@@ -1,0 +1,17 @@
+@page "{id:int}"
+@model Aula04.RazorPages.Pages.Events.Delete
+
+<div>
+    <h1>Detalhes do item para remover</h1>
+
+    <p><strong>Nome:</strong> @Model.EventModel.Name</p>
+    <p><strong>Descrição:</strong> @Model.EventModel.Description</p>
+    <p><strong>Data de criação:</strong> @Model.EventModel.Date</p>
+</div>
+
+<form method="post">
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-page="./Event/Index" class="btn btn-primary">Retornar para a listagem</a>
+        </div>
+</form>

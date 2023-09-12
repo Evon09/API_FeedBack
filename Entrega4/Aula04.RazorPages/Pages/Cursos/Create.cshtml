@@ -1,0 +1,39 @@
+@page
+@model Aula04.RazorPages.Pages.Cursos.Create
+
+<h1>Criar Evento</h1>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-dange"></div>
+            <input type="hidden" asp-for="cursoModel.IdCurso"/>
+            <div class="form-group">
+                <label asp-for="cursoModel.NomeCurso"></label>
+                <input asp-for="cursoModel.NomeCurso" class="form-control" />
+                <span asp-validation-for="cursoModel.NomeCurso" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cursoModel.Descricao"></label>
+                <input asp-for="cursoModel.Descricao" class="form-control"></textarea>
+                <span asp-validation-for="cursoModel.Descricao" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cursoModel.DataInicio"></label>
+                <input asp-for="cursoModel.DataInicio" type="date" class="form-control" />
+                <span asp-validation-for="cursoModel.DataInicio" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cursoModel.DataTérmino"></label>
+                <input asp-for="cursoModel.DataTérmino" type="date" class="form-control" />
+                <span asp-validation-for="cursoModel.DataTérmino" class="text-dange"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Salvar"/>
+                <a asp-page="/Cursos/Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+@page
+@model Aula04.RazorPages.Pages.Cursos.Alunos.Index
+
+<h1 class="display-4">Alunos registrados</h1>
+
+<hr/>
+<td><a asp-page="/Cursos/Create">Criar novo aluno</a></td>
+<hr/>
+
+<div>
+    <table class="table table-bordered table-striped table-hover-custom">
+        <thead>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.AlunoList[0].AlunoID)</td>
+                <td>@Html.DisplayNameFor(model => model.AlunoList[0].NomeAluno)</td>
+                <td>@Html.DisplayNameFor(model => model.AlunoList[0].Email)</td>
+                <td>@Html.DisplayNameFor(model => model.AlunoList[0].DataInscricao)</td>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var alunoModel in Model.AlunoList)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => alunoModel.AlunoID)</td>
+                        <td>@Html.DisplayFor(model => alunoModel.NomeAluno)</td>
+                        <td>@Html.DisplayFor(model => alunoModel.Email)</td>
+                        <td>@Html.DisplayFor(model => alunoModel.DataInscricao)</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@alunoModel.AlunoID">Alterar</a>
+                            <a asp-page="./Details" asp-route-id="@alunoModel.AlunoID">Visualizar</a>
+                            <a asp-page="./Delete" asp-route-id="@alunoModel.AlunoID">Remover</a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+    
+</div>

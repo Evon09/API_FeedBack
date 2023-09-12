@@ -1,0 +1,39 @@
+@page "{id:int}"
+@model Aula04.RazorPages.Pages.Cursos.Edit
+
+<h1>Alterar curso</h1>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-dange"></div>
+            <input type="hidden" asp-for="CursoModel.IdCurso"/>
+            <div class="form-group">
+                <label asp-for="CursoModel.NomeCurso"></label>
+                <input asp-for="CursoModel.NomeCurso" class="form-control" />
+                <span asp-validation-for="CursoModel.NomeCurso" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CursoModel.Descricao"></label>
+                <input asp-for="CursoModel.Descricao" class="form-control"></textarea>
+                <span asp-validation-for="CursoModel.Descricao" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CursoModel.DataInicio"></label>
+                <input asp-for="CursoModel.DataInicio" type="date" class="form-control" />
+                <span asp-validation-for="CursoModel.DataInicio" class="text-dange"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CursoModel.DataTérmino"></label>
+                <input asp-for="CursoModel.DataTérmino" type="date" class="form-control" />
+                <span asp-validation-for="CursoModel.DataTérmino" class="text-dange"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Salvar"/>
+                <a asp-page="/Cursos/Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

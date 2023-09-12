@@ -1,0 +1,18 @@
+@page "{id:int}"
+@model Aula04.RazorPages.Pages.Cursos.Delete
+
+<div>
+    <h1>Detalhes do item para remover</h1>
+
+    <p><strong>Nome:</strong> @Model.CursoModel.NomeCurso</p>
+    <p><strong>Descrição:</strong> @Model.CursoModel.Descricao</p>
+    <p><strong>Data de inicio:</strong> @Model.CursoModel.DataInicio</p>
+    <p><strong>Data de término:</strong> @Model.CursoModel.DataTérmino</p>
+</div>
+
+<form method="post">
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-page="./Cursos/Index" class="btn btn-primary">Retornar para a listagem</a>
+        </div>
+</form>

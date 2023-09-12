@@ -1,0 +1,31 @@
+@page
+@model Aula04.RazorPages.Pages.Events.Players.Register
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label for="evento">Evento:</label>
+            <select class="form-control" id="evento" name="evento">
+                @foreach (var eventModel in Model.EventList!)
+                {
+                    <option value="@eventModel.EventID">@eventModel.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="jogador">Jogador:</label>
+            <select class="form-control" id="jogador" name="jogador">
+                @foreach (var playerModel in Model.PlayerList!)
+                {
+                    <option value="@playerModel.PlayerID">@playerModel.Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar</button>
+    </form>
+</div>
